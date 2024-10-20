@@ -23,5 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment Files
-.env.development
-.env.production
+# TODO: do github security with .evn files..
+# .env.development
+# .env.production
