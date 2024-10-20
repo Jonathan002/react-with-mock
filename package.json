@@ -46,5 +46,8 @@
     "workerDirectory": [
       "public"
     ]
+  },
+  "engines": {
+    "node": "22.9.0"
   }
 }
