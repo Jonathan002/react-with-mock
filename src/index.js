@@ -5,10 +5,10 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 async function mockIfInDevelopment() {
-  if (process.env.NODE_ENV !== "development") {
+  console.log({ env: process.env });
+  if (process.env.REACT_APP_ENV !== "development") {
     return;
   }
-  console.warn("==================== Mocking enabled! ====================");
   const { worker } = await import("./mocks/browser");
   // `worker.start()` returns a Promise that resolves
   // once the Service Worker is up and ready to intercept requests.
