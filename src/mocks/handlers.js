@@ -15,7 +15,7 @@ export const handlers = [
   }),
 
   // Define a POST route for '/api/login'
-  http.post("/api/login", async ({ request }) => {
+  http.post("/api/post", async ({ request }) => {
     const { message } = await request.json();
     return HttpResponse.json(
       { message: `Mock Server Post Response: ${message}!` },
