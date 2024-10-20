@@ -1,8 +1,5 @@
 # React With Mocks
 - From Create React App CLI:
-
-## Abilities
-- Ability to treeshake Fat code based on environment
 - Can Mock Api with MSW interceptor for testing.
 
 ## Install
