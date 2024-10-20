@@ -39,6 +39,12 @@
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",
+    "msw": "^2.4.11",
     "react-app-rewired": "^2.2.1"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
   }
 }
